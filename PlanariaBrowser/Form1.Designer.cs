@@ -31,11 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.urlText = new System.Windows.Forms.ToolStripTextBox();
-            this.gotoURL = new System.Windows.Forms.Button();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.urlText = new System.Windows.Forms.ToolStripTextBox();
+            this.gotoURL = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newTemplateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,23 +73,6 @@
             this.toolStrip1.TabIndex = 9;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // urlText
-            // 
-            this.urlText.Name = "urlText";
-            this.urlText.Size = new System.Drawing.Size(400, 25);
-            // 
-            // gotoURL
-            // 
-            this.gotoURL.Font = new System.Drawing.Font("Aver", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gotoURL.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.gotoURL.Location = new System.Drawing.Point(486, 24);
-            this.gotoURL.Name = "gotoURL";
-            this.gotoURL.Size = new System.Drawing.Size(75, 25);
-            this.gotoURL.TabIndex = 10;
-            this.gotoURL.Text = "Go get it!";
-            this.gotoURL.UseVisualStyleBackColor = true;
-            this.gotoURL.Click += new System.EventHandler(this.gotoURL_Click_1);
-            // 
             // toolStripButton2
             // 
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -116,6 +99,23 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton3.Text = "toolStripButton3";
+            // 
+            // urlText
+            // 
+            this.urlText.Name = "urlText";
+            this.urlText.Size = new System.Drawing.Size(400, 25);
+            // 
+            // gotoURL
+            // 
+            this.gotoURL.Font = new System.Drawing.Font("Aver", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gotoURL.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.gotoURL.Location = new System.Drawing.Point(486, 24);
+            this.gotoURL.Name = "gotoURL";
+            this.gotoURL.Size = new System.Drawing.Size(75, 25);
+            this.gotoURL.TabIndex = 10;
+            this.gotoURL.Text = "Go get it!";
+            this.gotoURL.UseVisualStyleBackColor = true;
+            this.gotoURL.Click += new System.EventHandler(this.gotoURL_Click_1);
             // 
             // menuStrip1
             // 
@@ -183,6 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1032, 609);
             this.Controls.Add(this.gotoURL);
             this.Controls.Add(this.toolStrip1);
