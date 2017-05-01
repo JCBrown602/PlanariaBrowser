@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\bin\x86\Release\PlanariaBrowser.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\bin\x86\Release\PlanariaBrowser.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\bin\x86\Release\PlanariaBrowser.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\obj\x86\Release\PlanariaBrowser.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\obj\x86\Release\PlanariaBrowser.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\obj\x86\Release\PlanariaBrowser.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\obj\x86\Release\PlanariaBrowser.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\obj\x86\Release\PlanariaBrowser.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\PlanariaBrowser\PlanariaBrowser\obj\x86\Release\PlanariaBrowser.pdb

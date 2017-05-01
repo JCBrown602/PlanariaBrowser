@@ -50,13 +50,11 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(0, 63);
+            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser1.Location = new System.Drawing.Point(0, 24);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(80, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1027, 522);
+            this.webBrowser1.Size = new System.Drawing.Size(1032, 585);
             this.webBrowser1.TabIndex = 8;
             this.webBrowser1.Url = new System.Uri("http://google.com", System.UriKind.Absolute);
             // 
